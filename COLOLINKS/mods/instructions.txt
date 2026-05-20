@@ -1,0 +1,13 @@
+======================= PALETTE INSTALL INSTRUCTIONS =======================
+
+Copy the JSON Object from nightcoffee.json and paste it into the array of custom_palettes.json (If you haven't created custom_palettes.json then create it beside the executable and put the object inside Array).
+
+======================== THEME INSTALL INSTRUCTIONS ========================
+
+1. If you haven't created custom_themes folder beside the exe then create it.
+2. If you haven't created themes.txt inside custom_themes folder then create it.
+3. In that themes.txt Add "playstation" (Without the quotes), Make sure that each theme name on each line and no empty line.
+4. Copy playstation folder to beside themes.txt
+
+
+

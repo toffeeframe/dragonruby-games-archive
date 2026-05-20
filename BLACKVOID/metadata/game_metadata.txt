@@ -1,0 +1,6 @@
+devid=Rabios
+devtitle=Rabia Alhaffar
+gameid=BLACKVOID
+gametitle=BLACKVOID
+version=0.1
+icon=metadata/icon.png
