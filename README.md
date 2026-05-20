@@ -13,6 +13,8 @@ nowdays but still thanking them for being very patient with me (Even some of the
 I also want to thank [Amir Rajan](http://github.com/amirrajan) for giving me the Pro version of DragonRuby for free in past, For the fact that
 Syria being under sanctions made it near impossible to use any digital payment services.
 
+I also want to thank everyone in the community of DragonRuby who cheered and supported me during the journey I had with the toolkit.
+
 ## Games
 
 The source code of each game can be browsed at their folder, Not all games may seem perfect since I can't hide that didn't put perfect
