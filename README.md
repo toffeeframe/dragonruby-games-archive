@@ -27,7 +27,7 @@ documentation and a custom theme mod I made for the game can be found in the `CO
 
 Perhaps unlike OpenSenet which made with the free version, The other games were made with the Pro version.
 
-Downloads for the game builds can be found in the [Releases](https://github.com/toffeeframe/dragonruby-games-archive) section,
+Downloads for the game builds can be found in the [Releases](https://github.com/toffeeframe/dragonruby-games-archive/releases) section,
 No need to own DragonRuby GTK in order to play the games, The builds are available for desktop platforms and also Android for games
 that supported touch input.
 
