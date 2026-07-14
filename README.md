@@ -1,56 +1,62 @@
-# COLOLINKS!
+# DragonRuby Games Archive
 
-This is the source code of the game COLOLINKS! which was on itch.io years ago before deletion.
+This is an archive of simple games I made with [DragonRuby GTK](https://dragonruby.org) around 2020 - 2022.
 
-The code has not been touched years ago since the release (Unless for improvements and patches) therefore
-there is no guarantee that it can be built or run on newer DragonRuby GTK versions
+## Foreword
 
-The game should work just fine (If can be built) on desktop and mobile platforms, Web build struggles with
-stuttering and performance problems so it was the only game back then I didn't make it playable on web.
+These games may not be compatible with latest versions of the game toolkit, Even tho the code might be worthy to look into
+by any developer who may be interested in stuff I made in the past (Or even any DragonRuby developer).
 
-## Source Code
+At those years in past I was around the community of this toolkit who gave me passion and support, Although I was more of a kid unlike
+nowdays but still thanking them for being very patient with me (Even some of them were mentioned by their usernames in the source code of some games).
 
-Initially the whole game source code was all in one file during development, Later little refactoring done and the source code split into
-various files with their usage although the naming of some is somehow misleading (Could've been better) or even fulfill parts that other
-files should do instead...
+I also want to thank [Amir Rajan](http://github.com/amirrajan) for giving me the Pro version of DragonRuby for free in past, For the fact that
+Syria being under sanctions made it near impossible to use any digital payment services.
 
-| File | Usage |
-|------|-------|
-| `achievements.rb` | Achievements UI Scene (Achievements metadata is in `game.rb`) |
-| `arr_utils.rb` | Utilities to deal with arrays, Used for the grid data logic within gameplay mechanism |
-| `audio.rb` | Audio Management, Makes playing sounds easier |
-| `background.rb` | Code for rendering backgrounds within game scenes |
-| `board.rb` | Code for rendering the game board during playing |
-| `common_rectangles.rb` | Functions returning rectangles used commonly within various parts of game code |
-| `game.rb` | Code for setup the whole game data (Not just user data), Also includes code for gameplay loop and rendering gameplay scene |
-| `game_data.rb` | Code for handling game user data (Load, Save, Reset), Also includes logic to reset state for each new gameplay |
-| `gui.rb` | Rendering code for parts of the gameplay scene UIs (Rest parts of rendering code are within other files) |
-| `input.rb` | Logic code for handling input within game, [drkbd](https://github.com/toffeeframe/drkbd) and [drtouch](https://github.com/toffeeframe/drtouch) where built on portions from this file |
-| `leaderboards.rb` | Leaderboards code, Including code for handling user IDs and leaderboards as well as leaderboards menu rendering code |
-| `main.rb` | Main Entry, Contains main loop logic and loads rest of game code upon its launching |
-| `matching_logic.rb` | Logic code for matching marbles, Also includes functions for rendering clearing traces and lines connecting matches |
-| `palettes.rb` | Palettes-related code, Including code for loading and usage of palettes as well as palette menu rendering code |
-| `rendering_classes.rb` | Classes used for rendering shapes and sprites by game code, Since classes are fastest for rendering in DragonRuby GTK |
-| `scenes.rb` | Rendering code for scenes and menus that their rendering code isn't within other files |
-| `special_marbles.rb` | Logic code for special marbles that can be used within gameplay |
-| `themes.rb` | Themes-related code, Including code for loading and usage of themes as well as themes menu rendering code |
-| `utils.rb` | Utility functions for various things |
-| `yell.rb` | Logic and rendering code to show yelling texts within gameplay |
+I also want to thank everyone in the community of DragonRuby who cheered and supported me during the journey I had with the toolkit.
 
-Other folders contain fonts and sounds and images used by the game, For info on their license check out `doc/3rd_party.txt`.
+## Games
 
-It worth mentioning that one of my old friends on Discord contributed with a design for one of the game themes and his name can be seen within code of
-`themes.rb`, Thanking him to this day if he still remembers me.
+The source code of each game can be browsed at their folder, Not all games may seem perfect since I can't hide that didn't put perfect
+effort on game development but they still make a part of my history as a programmer although sadly there are some good practices that should
+be made in addition to following a standard versioning like semver if necessary.
 
-The game was the first of DragonRuby games that did put usage of HTTP requests into practice through leaderboards, It was possible
-to find bugs and problems within DragonRuby GTK that [Ryan C. Gordon (@icculus)](https://github.com/icculus) thankfully solved at that time (Bugs from problems of returning broken data
-of HTTP requests results to weird sprite rendering bug on Android).
+Perhaps unlike OpenSenet which made with the free version, The other games were made with the Pro version.
 
-The leaderboards API is RESTFul HTTP and based on one from GitHub that not remembering which one sadly, And hosted by [mooff (@awesomecooking)](https://github.com/awfulcooking) on his site
-which supposed even to host games by other developers and so on... Later the site got down so not fearing to share the whole code with even the API key since nothing could be done and leaderboards
-data has been lost with the site being down.
+Downloads for the game builds can be found in the [Releases](https://github.com/toffeeframe/dragonruby-games-archive/releases) section,
+No need to own DragonRuby GTK in order to play the games, The builds are available for desktop platforms and also Android for games
+that supported touch input.
 
-If anyone wondering about the URL that PayPal button leads to, It's the account of my cousin which used it at that time (With his permission) because until this day PayPal does not work in Syria
-and had some hope that someone will donate with a penny for putting effort on making this game. (Which nobody did...)
+## Other Projects
 
-The game also allows customization and modding for some of game visuals but feature is not available for web and mobile builds sadly.
+There were projects that are not games but helps as component within development of games such as `drkbd` and `drtouch` and `drext`.
+
+These components could be released again but even tho I lost my Pro subscription account with the old GMail account at the day I made a
+decision of deleting my accounts over the internet the past 2 years (Kinda dumb, I know...) so even if they get released again I can't
+maintain them again to be compatible with recent versions of DragonRuby GTK, I don't know even if anyone interested in these projects
+anymore.
+
+Also there was DragonBlocks, A modification on Google's Blockly that allowed to generate game code that works with DragonRuby, Sadly
+also the generated Ruby code may not be compatible anymore with recent versions (Which I don't own one anymore, Again, Read above...) so
+I don't know if there's a chance for this project to come back into development, Luckily as for now Amir Rajan also kept a [fork](https://github.com/amirrajan/dragonblocks)
+if anyone interested in checking the project.
+
+I also made a game launcher for the "Tools Game Jam" on itch.io in past which called "Lancelot", Well... I gotta say wasn't proud very much and the
+project came around problem related to command calling when some people tested it (Which made me very upset though the testing time I put),
+Perhaps it can be one of the projects that may not see a comeback on my account again.
+
+## DragonRuby Dispatch Issues
+
+Some issues from [DragonRuby Dispatch (Newsletter)](https://dragonrubydispatch.com) that did feature or mention some of my DragonRuby-related works:
+
+1. Touch input and deployment to Android tutorial: https://dragonrubydispatch.com/2022/02/09/Issue-102.html
+2. `drext`: https://dragonrubydispatch.com/2021/10/13/Issue-95.html
+3. Lancelot: https://dragonrubydispatch.com/2021/09/01/Issue-92.html
+4. DragonBlocks: https://dragonrubydispatch.com/2021/08/04/Issue-90.html
+5. BLACKVOID: https://dragonrubydispatch.com/2021/06/23/Issue-87.html
+
+Note that the first three mentioned are not yet reuploaded on my current GitHub.
+
+## License
+
+Check `LICENSE` file.

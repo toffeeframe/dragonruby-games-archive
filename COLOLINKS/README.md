@@ -37,7 +37,7 @@ files should do instead...
 | `utils.rb` | Utility functions for various things |
 | `yell.rb` | Logic and rendering code to show yelling texts within gameplay |
 
-Other folders contain fonts (`fonts`) and sounds (`sounds`) and images (`img`) used by the game, For info on their license check out `doc/3rd_party.txt`.
+Other folders contain fonts and sounds and images used by the game, For info on their license check out `doc/3rd_party.txt`.
 
 It worth mentioning that one of my old friends on Discord contributed with a design for one of the game themes and his name can be seen within code of
 `themes.rb`, Thanking him to this day if he still remembers me.
@@ -50,4 +50,7 @@ The leaderboards API is RESTFul HTTP and based on one from GitHub that not remem
 which supposed even to host games by other developers and so on... Later the site got down so not fearing to share the whole code with even the API key since nothing could be done and leaderboards
 data has been lost with the site being down.
 
-The game also allows customization and modding for some of game visuals but this not available for web and mobile builds sadly.
+If anyone wondering about the URL that PayPal button leads to, It's the account of my cousin which used it at that time (With his permission) because until this day PayPal does not work in Syria
+and had some hope that someone will donate with a penny for putting effort on making this game. (Which nobody did...)
+
+The game also allows customization and modding for some of game visuals but feature is not available for web and mobile builds sadly.
