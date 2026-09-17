@@ -36,10 +36,7 @@ decision of deleting my accounts over the internet the past 2 years (Kinda dumb,
 maintain them again to be compatible with recent versions of DragonRuby GTK, I don't know even if anyone interested in these projects
 anymore.
 
-Also there was DragonBlocks, A modification on Google's Blockly that allowed to generate game code that works with DragonRuby, Sadly
-also the generated Ruby code may not be compatible anymore with recent versions (Which I don't own one anymore, Again, Read above...) so
-I don't know if there's a chance for this project to come back into development, Luckily as for now Amir Rajan also kept a [fork](https://github.com/amirrajan/dragonblocks)
-if anyone interested in checking the project.
+Also there was [DragonBlocks](https://github.com/toffeeframe/dragonblocks), A modification on Google's Blockly that allowed to generate game code that works with DragonRuby, Sadly also the generated Ruby code may not be compatible anymore with recent versions (Which I don't own one anymore, Again, Read above...) so don't know if there's a chance for this project to come back into being maintained again.
 
 I also made a game launcher for the "Tools Game Jam" on itch.io in past which called "Lancelot", Well... I gotta say wasn't proud very much and the
 project came around problem related to command calling when some people tested it (Which made me very upset though the testing time I put),
